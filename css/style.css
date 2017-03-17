@@ -79,6 +79,15 @@ body {margin:0;}
       -webkit-filter: grayscale(90%);
       filter: grayscale(90%);
       }
+      .image1{
+      position:absolute;
+      top:170px;
+      left:34px;
+      width:95%;
+      height:60%;
+      -webkit-filter: grayscale(90%);
+      filter: grayscale(90%);
+      }
 h1{
   font-family:'librebaskerville-italic', serif; 
   font-size:35px; 
