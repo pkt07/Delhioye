@@ -1,4 +1,5 @@
-body {margin:0;}
+body {margin:0;
+background-color:#E5E7E9;}
 
 .topnav {
   overflow: hidden;
@@ -162,4 +163,21 @@ h2{
   width: 330px; 
   height: 410px;
 }
-     
+     .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      margin-left:70px;
+      -webkit-filter:grayscale(85%);
+      filter:grayscale(85%);
+        }
+  .person:hover {
+      border-color:#979A9A;
+      border-radius:50%;
+
+  }
+  .teamdes{
+    margin-left:25px;
+    font-size:15px;
+  }
