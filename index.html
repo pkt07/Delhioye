@@ -336,15 +336,44 @@ in the private as well as public organizations.<p>
     <div class="name">
     <h5 data-wow-duration="11700ms" data-wow-delay="10500ms" class="wow slideInRight animated" style="font-family:'librebaskerville-italic', serif; font-size:35px; text-align:center;font-color:black;font-weight:bold;">Our Partners</h5>
     <div class="row">
-    <div class="col-sm-6">
+    <div class="col-sm-6 wow fadeInLeft" data-wow-duration="500ms">
         <img src="img/part/dbs.jpg" class="img-square part" alt="Random Name" width="310" height="305">
     </div>
-     <div class="col-sm-6">
+     <div class="col-sm-6 wow fadeInLeft" data-wow-duration="500ms">
         <img src="img/part/tiss.png" class="img-square part" alt="Random Name" width="330" height="305">
     </div>
     </div>
     </div>
     </section>
+
+
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
    
 </body>
 </html>
