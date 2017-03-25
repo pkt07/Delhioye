@@ -271,7 +271,8 @@ h2{
   font-size:18px;
   margin-top: 40px;
 }
-/*.act{
-  -webkit-filter:grayscale(95%);
-  filter:grayscale(95%);
-}*/
+.involve{
+  -webkit-filter:grayscale(85%);
+  filter:grayscale(85%);
+  margin-left:60px;
+}
