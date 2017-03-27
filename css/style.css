@@ -236,9 +236,9 @@ h2{
     padding-left: 0;
 }
 .part{
-  margin-left:160px;
-  -webkit-filter: grayscale(90%);
-      filter: grayscale(90%);
+  margin-left:170px;
+  -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
      background-color:grey;
 }
   .map {
@@ -743,3 +743,10 @@ body {
 /* Demo purposes only */
 
 
+.partdis{
+  font-family:Ubuntu;
+  font-size:25px;
+  font-color:white;
+  margin-top:10px;
+  margin-left:65px;
+}
