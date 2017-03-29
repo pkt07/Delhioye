@@ -197,7 +197,7 @@ h2{
 .gallery-box .gallery-box-caption {
     display: block;
     position: absolute;
-    bottom: 0;
+    top:150px;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -211,10 +211,8 @@ h2{
 
 .gallery-box .gallery-box-caption .gallery-box-content {
     position: absolute;
-    top: 50%;
     width: 100%;
     text-align: center;
-    transform: translateY(-50%);
 }
 
 .gallery-box:hover .gallery-box-caption {
@@ -222,9 +220,9 @@ h2{
 }
 
 .gallery-box:hover img {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
 }
 
 .gallery-box img {
@@ -749,4 +747,126 @@ body {
   font-color:white;
   margin-top:10px;
   margin-left:65px;
+}
+
+
+  /* <ul class="top">
+      <div class="row">
+      <div class="col-sm-4">
+  <li class="galleryItem">
+    <a class="caption" href="#2" data-title="black &amp; white photo" data-description="Yogesh is the Founder of Delhi OYE.  He loves being among people and holds an exquisite interest in writing.">
+      <img src="img/team/team1.jpg" alt="">
+    </a>
+  </li>
+  </div>
+  <div class="col-sm-4">
+  <li class="galleryItem">
+    <a class="caption" href="#3" data-title="colored landscape" data-description="Rashi manages the workshops and events that are conducted at Delhi Oye. She is responsible for the on ground training and awareness programmes.">
+      <img src="img/team/team2.jpg" alt="">
+    </a>
+  </li>
+  </div>
+  <div class="col-sm-4">
+  <li class="galleryItem">
+    <a class="caption" href="#4" data-title="colored landscape" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id sapien condimentum, sagittis erat rhoncus, bibendum nisi.">
+      <img src="img/team/team3.jpg" alt="">
+    </a>
+  </li>
+  </div>
+  </div>
+  <div class="col-sm-6">
+  <li class="galleryItem">
+    <a class="caption" href="#5" data-title="colored landscape" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id sapien condimentum, sagittis erat rhoncus, bibendum nisi.">
+      <img src="img/team/team3.jpg" alt="">
+    </a>
+  </li>
+  </div>
+  <div class="col-sm-6">
+  <li class="galleryItem">
+    <a class="caption" href="#6" data-title="target" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id sapien condimentum, sagittis erat rhoncus, bibendum nisi.">
+      <img src="img/team/team3.jpg" alt="Landscape image">
+    </a>
+  </li>
+  </div>
+</ul>*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+figure.snip1390 {
+  font-family: 'Ubuntu', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  background-color: #2C3447;
+  padding: 30px;
+  background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.snip1390 *,
+figure.snip1390 *:before,
+figure.snip1390 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.snip1390 figcaption {
+  width: 100%;
+}
+figure.snip1390 h2,
+figure.snip1390 h4,
+figure.snip1390 blockquote {
+  margin: 0;
+}
+figure.snip1390 h2,
+figure.snip1390 h4 {
+  font-weight: 300;
+}
+figure.snip1390 h2 {
+  color: #ffffff;
+}
+figure.snip1390 h4 {
+  color: #a6a6a6;
+}
+figure.snip1390 blockquote {
+  font-size: 1em;
+  padding: 45px 20px 40px 50px;
+  margin-top: 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: inset -1.4px -1.4px 2px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  position: relative;
+}
+figure.snip1390 blockquote:before {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 70px;
+  opacity: 0.25;
+  font-style: normal;
+  top: 0px;
+  left: 20px;
+}
+figure.snip1390 .profile {
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+  border: solid 5px #A6A57A;
+}
+/* Demo purposes only */
+.teamm{
+  margin-left:160px;
+}
+.teammm{
+  margin-left:30px;
 }
