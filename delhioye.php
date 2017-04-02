@@ -9,6 +9,8 @@
 $myfile = fopen("files/msgBox.txt", "a") or die("Unable to open file!");
 $txt = $_POST["name"] ;
 fwrite($myfile, 'Name: '.$txt."\n");
+$txt = $_POST["phone"] ;
+fwrite($myfile, 'Phone: '.$txt."\n");
 $txt = $_POST["email"];
 fwrite($myfile,"Email: ".$txt."\n");
 $txt = $_POST["msg"];
